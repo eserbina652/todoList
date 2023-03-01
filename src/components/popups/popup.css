@@ -1,0 +1,32 @@
+#mainWindow {
+    width: 100svw;
+    height: 100svh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+#secondaryWindow {
+    width: auto;
+    min-width: 25%;
+    height: auto;
+    padding: 20px;
+    display: inherit;
+    position: inherit;
+    justify-content: center;
+    z-index: 3;
+}
+
+#popupContent {
+    display: inherit;
+    flex-direction: column;
+}
+
+#checkboxWrap {
+    display: inherit;
+    flex-direction: row;
+}

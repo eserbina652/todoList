@@ -1,0 +1,56 @@
+* {
+  background-color: lightgray;
+}
+html, body {
+    margin: 0;
+}
+#wrapper {
+    margin: 50px;
+}
+.flex {
+    display: flex;
+    position: relative;
+}
+
+.todoHeader h2 {
+    background-color: #bebebe;
+}
+
+div h3 {
+    /*margin: 15px;*/
+}
+
+#inputWrap {
+    margin: 0 10px;
+}
+
+.valid {
+    font-size: 20px;
+}
+
+.error {
+    border: 1px red solid;
+    font-size: 20px;
+}
+
+.errorText {
+    color: red;
+}
+
+.todoHeader {
+    display: grid;
+    width: 50vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: #bebebe;
+}
+
+.todoBody {
+    display: grid;
+    background-color: darkgray;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: column;
+    justify-items: center;
+    width: 50vw;
+}
