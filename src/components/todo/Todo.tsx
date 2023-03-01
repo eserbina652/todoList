@@ -11,9 +11,8 @@ const Todo = ({todo, handleSelect}:ISingleTodo) => {
     return (
         <div onClick={() => handleSelect(todo)} className='todoBody' id='todo'>
             <p>{todo.id}</p>
-            <p>{todo.title}</p>
-            <p>{todo.description}</p>
-
+            <p className='textClip'>{todo.title}</p>
+            <p className='textClip'>{todo.description}</p>
             <input type="checkbox" checked={todo.status}/>
         </div>
     );

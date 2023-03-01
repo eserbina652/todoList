@@ -1,3 +1,10 @@
 #todo p {
     background-color: darkgray;
 }
+
+.textClip {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 120px;
+}
